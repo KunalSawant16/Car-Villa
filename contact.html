@@ -1,0 +1,196 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<style>
+header{
+background:white;
+}
+header img{
+height:150px;
+width:150px;
+margin-left:5%;
+}
+header input{
+border-style:ridge;
+}
+.container{
+background:white;
+display:flex;
+height:510px;
+}
+.col-md-4{
+width:50%;
+height:510px;
+}
+.col-md-5{
+width:50%;
+height:510px;
+}
+.f1{
+height:50px;
+background:#333333;
+width:100%;
+}
+
+
+
+
+
+
+
+
+@media(min-width:319px) and (max-width:436px){
+header img{
+height:100px;
+width:100px;
+margin:auto;
+}
+header form{
+margin:auto;
+}
+header input{
+padding:0% 5% !important;
+}
+header button{
+margin:auto;
+}
+.container{
+flex-direction:column;
+height:1020px;
+}
+.col-md-4{
+width:100%;
+}
+.col-md-5{
+width:100%;
+}
+}
+
+
+
+
+
+
+
+@media(max-width:769px){
+iframe{
+height:100px;
+}
+}
+
+
+
+</style>
+</head>
+<body>
+<header class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+		<img src="1.jpg"/>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary" type="submit" style="background:#ea6c0d">Search</button>
+        </form>
+      </div>
+</header>
+
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" style="width: 110px; text-align: center;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" style="width: 110px; text-align: center;">About</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="service.html" style="width: 110px; text-align: center;">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pricing.html" style="width: 110px; text-align: center;">Pricing</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="cars.html" style="width: 110px; text-align: center;">Cars</a>
+        </li>
+		<li class="nav-item"  style="border-bottom: 3px solid #f36908; font-size: 17px;">
+          <a class="nav-link active" aria-current="page" href="contact.html"  style="width: 110px; text-align: center;">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <section class="ftco-section contact-section">
+      <div class="container">
+        <div class="row d-flex mb-5 contact-info">
+        	
+          <div class="col-md-5 block-9 mb-md-5">
+            <form action="#" class="bg-body-secondary p-5 contact-form border border-5">
+			<h4>Have a Questions?</h4>
+			<h5>Contact Us</h5>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div><br>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div><br>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div><br>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+              </div><br>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary">
+              </div>
+            </form>
+          
+          </div>
+		  
+		  <div class="col-md-4"><br>
+        		<div class="row mb-6">
+				
+		          <div class="col-md-12">
+		          	<div class="border w-50 p-2 rounded mb-2 d-flex mx-auto bg-body-secondary border border-5">
+			          	
+			            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+			          </div>
+		          </div>
+		          <div class="col-md-12">
+		          	<div class="border w-50 p-2 rounded mb-1 d-flex mx-auto  bg-body-secondary border border-5">
+			          	
+			            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+			          </div>
+		          </div>
+		          <div class="col-md-12">
+		          	<div class="border w-50 p-2 rounded mb-1 d-flex mx-auto  bg-body-secondary border border-5">
+			          	
+			            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+			          </div>
+		          </div>
+		        </div>
+				<div class="border rounded  bg-body-secondary border border-5">
+				<h4 style="text-align:center">Location</h4>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6302045487955!2d-73.9875786239725!3d40.748161871388234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9ac1f1b85%3A0x7e33d1c0e7af3be4!2s350%205th%20Ave%2C%20New%20York%2C%20NY%2010118%2C%20USA!5e0!3m2!1sen!2sin!4v1696842337666!5m2!1sen!2sin" width="100%" height="200" style="border:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+
+<footer class="f1">
+
+</footer>
+
+</body>
+</html>
